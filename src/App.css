@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.row{
+  max-width: 1320px;
+  margin: auto;
+  flex-wrap: wrap;
+  /* background-color: #61dafb; */
+  display:flex;
+}
+
+.carditems{
+  flex-basis: 23%;
+  background-color: aliceblue;
+  margin: 1%;
+  height: 200px;
+}
